@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-container{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top:60px ;
+width: 100%;
+height:200px ;
+border: 2px solid black;
+cursor: none;
+}
+.textContainer{
+    display: flex;
+    font-size: 32px;
+    animation: change linear infinite 4s;
+    cursor: none;
+    
+
+}
+
+.sa{
+    color:black !important;
+padding: 10px;
+font-weight: 900;
+}
+.spin1{
+    animation: Spin1 infinite ease-in-out 5s;
+}
+.spin2{
+    animation: Spin2 infinite ease-in-out 5s;
+}
+.spin3{
+    animation: Spin3 infinite ease-in-out 5s;
+}
+.spin4{
+    animation: Spin4 infinite ease-in-out 5s;
+}
+.spin5{
+    animation: Spin5 infinite ease-in-out 5s;
+}
+.spin6{
+    animation: Spin6 infinite ease-in-out 5s;
+}
+.spin7{
+    animation: Spin7 infinite ease-in-out 5s;
+}
+.spin8{
+    animation: Spin8 infinite ease-in-out 5s;
+}
+.spin9{
+    animation: Spin9 infinite ease-in-out 5s;
+}
+
+
+
+@keyframes Spin1{
+0%{  
+  background-color: blue;
+}
+25%{  
+   background-color: orange;  
+}
+50%{
+ background-color: yellow;
+}
+75%{
+   background-color: green; 
+}
+100%{
+    background-color: red;
+}
+}
+@keyframes Spin2{
+0%{  
+    background-color: orange; 
+}
+25%{  
+    background-color: yellow;  
+}
+50%{
+    background-color: green; 
+}
+75%{
+    background-color: red;
+}
+100%{
+    background-color: blue;
+}
+}
+@keyframes Spin3{
+0%{  
+  background-color: yellow;
+}
+25%{  
+   background-color: green;  
+}
+50%{
+ background-color: red ;
+}
+75%{
+   background-color: blue ; 
+}
+100%{
+    background-color: orange;
+}
+}
+@keyframes Spin4{
+0%{  
+  background-color: green   ;
+}
+25%{  
+   background-color: red;  
+}
+50%{
+ background-color: blue ;
+}
+75%{
+   background-color:orange ; 
+}
+100%{
+    background-color: yellow   ;
+}
+}
+@keyframes Spin5{
+0%{  
+  background-color: red ;
+}
+25%{  
+   background-color: blue;  
+}
+50%{
+ background-color: orange  ;
+}
+75%{
+   background-color: yellow ; 
+}
+100%{
+    background-color: green;
+}
+}
+@keyframes Spin6{
+0%{  
+    background-color: blue;
+  }
+  25%{  
+     background-color: orange;  
+  }
+  50%{
+   background-color: yellow;
+  }
+  75%{
+     background-color: green; 
+  }
+  100%{
+      background-color: red;
+  }
+}
+@keyframes Spin7{
+    0%{  
+        background-color: orange; 
+    }
+    25%{  
+        background-color: yellow;  
+    }
+    50%{
+        background-color: green; 
+    }
+    75%{
+        background-color: red;
+    }
+    100%{
+        background-color: blue;
+    }
+}
+@keyframes Spin8{
+0%{  
+  background-color: yellow;
+}
+25%{  
+   background-color: green;  
+}
+50%{
+ background-color: red ;
+}
+75%{
+   background-color: blue ; 
+}
+100%{
+    background-color: orange;
+}
+}
+@keyframes Spin9{
+ 0%{  
+  background-color: green   ;
+}
+25%{  
+   background-color: red;  
+}
+50%{
+ background-color: blue ;
+}
+75%{
+   background-color:orange ; 
+}
+100%{
+    background-color: yellow   ;
+}
+}
